@@ -1,0 +1,33 @@
+.todo-list {
+  padding: 20px;
+
+  .sub-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+    .btn {
+      background-color: #5b9bd5;
+      padding: 10px 20px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  .table {
+    width: 100%;
+
+    .description {
+      width: 70%;
+    }
+
+    th, td {
+      border: 1px solid gray;
+      padding: 15px;
+
+      .delete .mark-done {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.calendar {
+  width: 100%;
+
+  .title {
+    background-color: #4472c4;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+  .days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .table .td {
+    border: 1px solid #ddd;
+    padding: 3% 10%;
+  }
+}

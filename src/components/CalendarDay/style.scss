@@ -1,0 +1,21 @@
+.calendar-day {
+  cursor: pointer;
+  width: 20%;
+  height: 10vh;
+  border: 1px solid gray;
+  position: relative;
+
+  &.filed-day {
+    background-color: #9dc3e6;
+  }
+
+  .description {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #5b9bd5;
+    width: 50%;
+    padding: 10px;
+    z-index: 999;
+  }
+}
