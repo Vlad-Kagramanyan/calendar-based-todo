@@ -98,7 +98,6 @@ const TodoList = ({
             />
           ))}
         </tbody>
-
       </table>
     </div>
   );

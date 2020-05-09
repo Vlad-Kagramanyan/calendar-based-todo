@@ -9,7 +9,7 @@ import './style.scss';
 
 const arr = generateDays();
 
-const Calendar = ({ todos }) => (
+export const Calendar = ({ todos }) => (
   <>
     <Header searchBar={false} todos={todos} />
     <div className="calendar">

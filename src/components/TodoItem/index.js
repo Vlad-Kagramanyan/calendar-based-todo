@@ -4,12 +4,12 @@ import './style.scss';
 
 const TodoItem = ({ item, changeTodo, deleteTodo }) => (
   <>
-    <tr key={item.id}>
+    <tr>
       <td className="description">
-        <h3>{item.title}</h3>
+        <h3 className="title">{item.title}</h3>
         <span>{item.description}</span>
       </td>
-      <td>{item.status ? 'complete' : 'incomplete'}</td>
+      <td className="status">{item.status ? 'complete' : 'incomplete'}</td>
       <td>
         <p
           className="delete"

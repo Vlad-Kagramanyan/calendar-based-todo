@@ -5,3 +5,11 @@ export const generateDays = () => {
   }
   return days;
 };
+
+export const testData = {
+  id: 1,
+  title: 'test title',
+  description: 'test description',
+  status: false,
+  date: 1,
+};
